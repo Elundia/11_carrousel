@@ -119,6 +119,7 @@ footer {
   -ms-align-items: stretch;
   align-items: stretch;
   max-height: 400px;
+  margin: 0 0 70px;
 }
 
 .myPrevious, .myNext {
@@ -148,7 +149,6 @@ footer {
 
 .mySlider img {
   display: none;
-  max-width: 100%;
 }
 
 @-webkit-keyframes fadeIn {
@@ -169,7 +169,9 @@ footer {
 }
 
 .mySlider img.myActive {
-  display: inline-block;
+  display: block;
+  max-width: 99%;
+  margin: auto;
   -webkit-animation: fadeIn 1.2s;
   -o-animation: fadeIn 1.2s;
   animation: fadeIn 1.2s;

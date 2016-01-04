@@ -8293,7 +8293,6 @@ button.btn-floating {
 .waves-effect {
   position: relative;
   cursor: pointer;
-  display: inline-block;
   overflow: hidden;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -8309,13 +8308,13 @@ button.btn-floating {
 .waves-effect .waves-ripple {
   position: absolute;
   border-radius: 50%;
-  width: 20px;
-  height: 20px;
+  width: 100px;
+  height: 100px;
   margin-top: -10px;
   margin-left: -10px;
   opacity: 0;
   background: rgba(0, 0, 0, 0.2);
-  transition: all 0.7s ease-out;
+  transition: all .7s ease-out;
   transition-property: opacity, -webkit-transform;
   transition-property: transform, opacity;
   transition-property: transform, opacity, -webkit-transform;
