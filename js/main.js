@@ -31,7 +31,7 @@ function nextSlide() {
   slider.children[currentSlide].classList.add("myActive");
 }
 
-prevBtn.onclick = prevSlide;
-nextBtn.onclick = nextSlide;
-
 var autoPlay = window.setInterval(nextSlide, 5000);
+
+prevBtn.onclick = function() { window.clearInterval(autoPlay); prevSlide(); autoPlay = window.setInterval(nextSlide, 5000); };
+nextBtn.onclick = function() { window.clearInterval(autoPlay); nextSlide(); autoPlay = window.setInterval(nextSlide, 5000); };
