@@ -121,14 +121,6 @@ footer {
   max-height: 400px;
 }
 
-.myCarousel:before {
-  display: block;
-  content: " ";
-  margin-top: -50px;
-  height: 50px; 
-  visibility: hidden;
-}
-
 .myPrevious, .myNext {
   width: 10%;
   color: #000;
@@ -144,6 +136,14 @@ footer {
 
 .mySlider {
   width: 80%;
+}
+
+.mySlider:before {
+  display: inline-block;
+  content: " ";
+  margin-top: -50px;
+  height: 50px;
+  visibility: hidden;
 }
 
 .mySlider img {
