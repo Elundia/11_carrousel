@@ -126,7 +126,7 @@ footer {
   color: #000;
 }
 
-.myPrevious:hover, .myNext:hover {
+.myPrevious:hover, .myPrevious:focus, .myPrevious:active, .myNext:hover, .myNext:focus, .myNext:active {
   color: #d50000;
 }
 
