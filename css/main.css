@@ -126,6 +126,10 @@ footer {
   color: #000;
 }
 
+.myPrevious:hover, .myNext:hover {
+  color: #d50000;
+}
+
 .myPrevious i, .myNext i {
   margin: auto;
 }
