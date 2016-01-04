@@ -5,8 +5,8 @@
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-  <title>Carrousel</title>
-  <meta name="description" content="Exercice Carrousel">
+  <title>Carousel</title>
+  <meta name="description" content="Exercice Carousel">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -14,21 +14,52 @@
   <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 
   <link rel="stylesheet" href="css/materialize.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="css/main.css">
   <script src="js/modernizr-2.8.3.min.js"></script>
 </head>
 
-<body>
+<body class="blue-grey lighten-4">
   <!--[if lt IE 8]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
   <![endif]-->
 
 
-  <!--
-    Add your site or application content here
-  -->
+  <header class="indigo darken-4 blue-grey-text text-lighten-5">
+    <h1 class="center-align">Carouchel</h1>
+    <p class="center-align">Qu'il est chwag !!</p>
+  </header>
+  <main>
+    <div class="container">
+      <div class="myCarousel">
+        <a href="#" id="previous" class="myPrevious valign-wrapper">
+          <i class="material-icons valign">skip_previous</i>
+        </a>
+        <div id="slider" class="mySlider">
+          <img src="img/cherieux.jpg" alt="Photo de chat : Chérieux ?!" class="myActive">
+          <img src="img/chilteplait.jpg" alt="Photo de chat : Ch'il te plait...">
+          <img src="img/chijepeuxmepermettre.jpg" alt="Photo de chat : Chi je peux me permettre...">
+          <img src="img/chafaitchier.jpg" alt="Photo de chat : Cha fait chier...">
+          <img src="img/chetaitfachileenfait.jpg" alt="Photo de chat : Ch'était fachile en fait !!">
+        </div>
+        <a href="#" id="next" class="myNext valign-wrapper">
+          <i class="material-icons valign">skip_next</i>
+        </a>
+      </div>
+    </div>
+  </main>
+  <footer class="page-footer indigo darken-4 blue-grey-text text-lighten-5">
+    <div class="center-align">
+      <i class="material-icons">pets</i> Meow <i class="material-icons">pets</i>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        By Jade-L and Elundia
+      </div>
+    </div>
+  </footer>
 
-
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
